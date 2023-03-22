@@ -68,11 +68,15 @@ button{
 
 /*** PRIMA SEZIONE. ***/
 
+.boxMain{
+    width: 100%;
+    margin-top: 51px;
+}
+
 .container{
-    background-color: brown;
+    background-color: rgb(230, 163, 20);
     width: 100%;
     height: 100px;
-    margin-top: 51px;
 }
 
 .text{
@@ -80,3 +84,5 @@ button{
     width: calc(100% /4);
     text-align: center;
 }
+
+

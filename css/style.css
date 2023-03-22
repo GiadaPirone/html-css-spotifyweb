@@ -20,14 +20,12 @@
 
 .padding1   { padding: 1rem;}
 
-main{
-    height: calc(100vh - 180px);
-}
+
 
 footer{
     background-color: rgb(54, 53, 53);
     width: 100%;
-    min-height: 100px;
+    min-height: 80px;
 }
 
 
@@ -37,8 +35,8 @@ footer{
 
 .row{
     width: calc(100% - 10%);
-    max-height: 100px;
-    background-color: rgba(0, 0, 0, 0.253);
+    max-height: 80px;
+    background-color: rgba(0, 0, 0, 0.479);
 }
 
 button{
@@ -48,7 +46,12 @@ button{
 .sidebar{
     background-color: black;
     width: 10%;
-    height: calc(100vh - 100px); /* da sottrarre succ footer */
+    height: calc(100vh - 80px); 
+}
+
+.nav{
+    position: fixed;
+    width: 100%;
 }
 
 #spotyfyIcona{
@@ -59,17 +62,21 @@ button{
     width: 80%;
 }
 
-/* main. */
-/* prima sezione. */
+/***************
+    MAIN.
+****************/
 
-/* .container{
+/*** PRIMA SEZIONE. ***/
+
+.container{
     background-color: brown;
     width: 100%;
-    min-height: 100px;
+    height: 100px;
+    margin-top: 51px;
 }
 
 .text{
     background-color: beige;
     width: calc(100% /4);
     text-align: center;
-} */
+}

@@ -8,6 +8,7 @@
 }
 
 .flex   { display: flex;}
+.flexWrap   {flex-wrap: wrap;}
 .justifuCenter  { justify-content: center;}
 .justifyFlexEnd { justify-content: flex-end;}
 
@@ -17,14 +18,22 @@
 
 .padding1   { padding: 1rem;}
 
+main{
+    height: calc(100vh - 180px);
+    width: calc(100vw - 10%);
+}
 
+footer{
+    background-color: rgb(54, 53, 53);
+    width: 100%;
+    min-height: 100px;
+}
 
 
 /* HEADER. */
 
 .row{
     width: 100%;
-    min-height: 100px;
     background-color: rgba(0, 0, 0, 0.253);
     position: relative;
 }
@@ -45,8 +54,23 @@ button{
     position: absolute;
 }
 
-.colIcone span i{
+span i{
     color: white;
     font-size: 35px;
     padding-bottom: 10px;
+}
+
+/* main. */
+/* prima sezione. */
+
+.container{
+    background-color: brown;
+    width: 100%;
+    min-height: 100px;
+}
+
+.text{
+    background-color: beige;
+    width: calc(100% /4);
+    text-align: center;
 }

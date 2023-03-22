@@ -9,18 +9,19 @@
 
 .flex   { display: flex;}
 .flexWrap   {flex-wrap: wrap;}
+
 .justifuCenter  { justify-content: center;}
+.justifyBetween { justify-content: space-between;}
 .justifyFlexEnd { justify-content: flex-end;}
 
 .alignCenter    { align-items: center;}
-
+.directionColumn    { flex-direction: column;}
 .RowReverse    {flex-direction: row-reverse;}
 
 .padding1   { padding: 1rem;}
 
 main{
     height: calc(100vh - 180px);
-    width: calc(100vw - 10%);
 }
 
 footer{
@@ -30,40 +31,38 @@ footer{
 }
 
 
-/* HEADER. */
+/***************
+    HEADER.
+****************/
 
 .row{
-    width: 100%;
+    width: calc(100% - 10%);
+    max-height: 100px;
     background-color: rgba(0, 0, 0, 0.253);
-    position: relative;
 }
 
 button{
-    background-color: white;
-    width: 40%;
-    padding: 1rem;
-    border-radius: 30%;
+    background-color: bisque;
 }
 
-/*  NAVBAR. */
-
-.colNav{
+.sidebar{
     background-color: black;
     width: 10%;
-    height: 100%; /* da sottrarre succ footer */
-    position: absolute;
+    height: calc(100vh - 100px); /* da sottrarre succ footer */
 }
 
-span i{
-    color: white;
-    font-size: 35px;
-    padding-bottom: 10px;
+#spotyfyIcona{
+    filter: invert(1);
+}
+
+.boxIcone{
+    width: 80%;
 }
 
 /* main. */
 /* prima sezione. */
 
-.container{
+/* .container{
     background-color: brown;
     width: 100%;
     min-height: 100px;
@@ -73,4 +72,4 @@ span i{
     background-color: beige;
     width: calc(100% /4);
     text-align: center;
-}
+} */

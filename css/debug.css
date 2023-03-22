@@ -1,0 +1,31 @@
+/****** MEDIA QUERY DEBUG *****/
+
+/*** PHONE S ***/
+@media screen and (max-width: 480px){
+    .bodyDebug{
+        background-color: red;
+    }
+}
+
+/*** PHONE S ***/
+@media screen and (min-width: 480px){
+    .bodyDebug{
+        background-color: orange;
+    }
+}
+
+/*** TABLET ***/
+@media screen and (min-width: 768px){
+    .bodyDebug{
+        background-color: yellow;
+    }
+}
+
+/*** DESCK ***/
+@media screen and (min-width: 1200px){
+    .bodyDebug{
+        background-color: green;
+    }
+
+    
+}

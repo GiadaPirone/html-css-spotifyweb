@@ -1,0 +1,41 @@
+/****************
+     GENERALE
+*****************/     
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex   { display: flex;}
+.justifuCenter  { justify-content: center;}
+.justifyFlexEnd { justify-content: flex-end;}
+
+.alignCenter    { align-items: center;}
+
+
+
+
+/* HEADER. */
+
+.row{
+    width: 100%;
+    min-height: 100px;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+button{
+    background-color: white;
+    width: 40%;
+    padding: 1rem;
+    border-radius: 30%;
+}
+
+/*  NAVBAR. */
+
+.colNav{
+    background-color: black;
+    width: 10%;
+    height: 100%;
+
+}

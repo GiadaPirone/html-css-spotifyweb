@@ -13,6 +13,10 @@
 
 .alignCenter    { align-items: center;}
 
+.RowReverse    {flex-direction: row-reverse;}
+
+.padding1   { padding: 1rem;}
+
 
 
 
@@ -22,6 +26,7 @@
     width: 100%;
     min-height: 100px;
     background-color: rgba(0, 0, 0, 0.253);
+    position: relative;
 }
 
 button{
@@ -36,6 +41,12 @@ button{
 .colNav{
     background-color: black;
     width: 10%;
-    height: 100%;
+    height: 100%; /* da sottrarre succ footer */
+    position: absolute;
+}
 
+.colIcone span i{
+    color: white;
+    font-size: 35px;
+    padding-bottom: 10px;
 }

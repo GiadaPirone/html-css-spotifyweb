@@ -20,8 +20,10 @@
 
 .padding1   { padding: 1rem;}
 
-
+.w100   {width: 100%;}
 .phoneXs    {width: calc(100% / 2);}
+
+.radius50   {border-radius: 50%;}
 
 
 
@@ -42,7 +44,7 @@ button{
 .sidebar{
     background-color: black;
     width: 10%;
-    height: calc(100vh - 80px); 
+    /* height: calc(100vh - 80px);  */
 }
 
 .nav{
@@ -86,15 +88,9 @@ button{
     padding: 1rem;
 }
 
-.boxAlbum{
-    width: 100%;
-    min-height: 100px;
-    background-color: aqua;
-}
 
 .album{
     background-color: beige;
-    min-height: 50px;
 }
 
 .album > img{

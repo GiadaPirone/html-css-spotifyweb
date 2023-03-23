@@ -2,9 +2,15 @@
      GENERALE
 *****************/     
 *{
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    color:white
+}
+
+body{
+    background-color: #141922;
 }
 
 .flex   { display: flex;}
@@ -18,6 +24,11 @@
 .directionColumn    { flex-direction: column;}
 .RowReverse    {flex-direction: row-reverse;}
 
+
+.paddingTopBott1 {padding: 1rem 0rem 1rem 0rem;}
+.paddingBott05  {padding-bottom: 0.5rem;}
+.paddingBott1   {padding-bottom: 1rem;}
+.padding05  {padding: 0.5rem;}
 .padding1   { padding: 1rem;}
 .padding10px    {padding: 10px;}
 .radius50   {border-radius: 50%;}
@@ -39,6 +50,7 @@
     max-height: 80px;
     background-color: rgba(0, 0, 0, 0.479);
     position: fixed;
+    margin-top: -51px;
 }
 
 button{
@@ -65,7 +77,7 @@ button{
     width: 100%;
 }
 
-.prova > h1{
+.app > h1{
     display: none;
     color: white;
 }
@@ -79,6 +91,16 @@ button{
     display: none;
     color: white;
 }
+
+.sidebar  h4:not(#eccetto){
+    color: rgba(255, 255, 255, 0.473);
+}
+
+/* .sidebar  h4:not(#eccetto):hover{
+    color: rgb(255, 255, 255);
+} */
+
+
 
 /*** media phone s. sidebar ***/
 @media screen and (min-width: 480px){
@@ -101,6 +123,18 @@ button{
     .boxPlaylist{
         display: block;
     }
+
+    .crea > i{
+        font-size: 50px;
+    }
+    #spotyfyIcona{
+        max-width: 55px;
+    }
+    #smal{
+        font-size: 10px;
+        border-bottom: solid rgba(255, 255, 255, 0.329) 2px;
+    }
+   
 }
 
 /***************
@@ -115,13 +149,12 @@ button{
 }
 
 .container{
-    background-color: rgb(230, 163, 20);
+    background-color: #141922;
     width: 100%;
     /* height: 100px; */
 }
 
 .text{
-    background-color: beige;
     text-align: center;
 }
 
@@ -132,7 +165,7 @@ button{
 
 
 .album{
-    background-color: beige;
+    ;
 }
 
 .album > img{

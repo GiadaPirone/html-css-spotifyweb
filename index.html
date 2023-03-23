@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="./css/debug.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Spotify</title>
 </head>
-<body class="bodyDebug">
+<body>
 
 
 
@@ -18,75 +21,68 @@
 
         <div class="flex">
 
-            <header>
-
-                <div class="row flex RowReverse ">
-                    <div class=" padding1 flex justifyFlexEnd ">
-                        <button>CLICCA</button>
-                    </div>
-                </div> 
-                
-            </header>
-
             <div class="sidebar w10 flex directionColumn justifyBetween ">
     
                 <!-- sopra -->
                 <div class="boxIcone padding10px ">
                    
-                    <div class="prova flex ">
+                    <div class="app flex alignCenter paddingBott1">
                         <img id="spotyfyIcona" src="./img/favicon.ico" alt="">
-                        <h1>Spotify</h1>
+                        <h1 class="padding05">Spotify</h1>
                     </div>
 
-                    <div class="iconaTesto flex">
-                        <img class="icona" src="./img/home.svg" alt="">
-                        <h4>home</h4>
+                    <div class="iconaTesto flex alignCenter paddingBott05">
+                        <img class="icona home" src="./img/home.svg" alt="">
+                        <h4 id="eccetto">home</h4>
                     </div>
 
-                    <div class="iconaTesto flex">
+                    <div class="iconaTesto flex alignCenter paddingBott05">
                         <img class="icona" src="./img/search.svg" alt="">
                         <h4>Cerca</h4>
                     </div>
 
-                    <div class="iconaTesto flex">
+                    <div class="iconaTesto flex alignCenter paddingBott1">
                         <img class="icona" src="./img/libreria.svg" alt="">
                         <h4>La tua libreria</h4>
                     </div>
-                
-               </div>
 
-               <!-- playlist da phon s in poi. -->
-               <div class="boxPlaylist padding10px">
+                    <!-- playlist da phon s in poi. -->
+                    <div class="boxPlaylist ">
 
-                    <h4>PLAYLIST</h4>
+                        <h3 class="paddingBott05">PLAYLIST</h3>
 
-                    <div>
-                        <span ><i class="fa-solid fa-square-plus"></i></span>
-                        <h4>Crea playlist</h4>
+                        <div>
+                            <div class="flex alignCenter paddingBott05">
+                                <span class="crea"><i class="fa-solid fa-square-plus"></i></span>
+                                <h4 class="padding05">Crea playlist</h4>
+                            </div>
+                            
 
-                        <h4> playlist</h4>
-                        <h4> playlist</h4>
-                        <h4> playlist</h4>
-                        <h4> playlist</h4>
-                        <h4> playlist</h4>
-                        <h4> playlist</h4>
-                        <h4> playlist</h4>
+                            <h4>Nome playlist</h4>
+                            <h4>Nome playlist</h4>
+                            <h4>Nome playlist</h4>
+                            <h4>Nome playlist</h4>
+                            <h4>Nome playlist</h4>
+                            <h4>Nome playlist</h4>
+                            <h4>Nome playlist</h4>
+                        </div>
+
                     </div>
+                
+                </div>
 
-               </div>
-               
                
                <!-- sotto  DA RIVEDERE-->
                <div class="boxIcone padding10px ">
 
-                    <div class="iconaTesto flex">
+                    <div id="smal" class="iconaTesto flex">
                         <img class="icona" src="./img/download.svg" alt="">
-                        <h4>installa app</h4>
+                        <h4 class="padding05">installa app</h4>
                     </div>
 
-                    <div class="iconaTesto flex">
+                    <div class="iconaTesto flex alignCenter paddingTopBott1">
                         <img class="icona" src="./img/profile.svg" alt="">
-                        <h4>John Doe</h4>
+                        <h4 id="eccetto" class="padding05" >John Doe</h4>
                     </div>
 
                </div>
@@ -96,16 +92,26 @@
             <!-- MAAAAINNNN -->
             <div class="boxMain">
 
+                <header>
+
+                    <div class="row flex RowReverse ">
+                        <div class=" padding1 flex justifyFlexEnd ">
+                            <button>CLICCA</button>
+                        </div>
+                    </div> 
+                    
+                </header>
+
 
                 <!-- prima sezione -->
                 <div class="container flex flexWrap justifuCenter padding1">
 
-                    <div class="text phoneXs1-4 phoneS1-3 tabletMD1-5 desckL1-6">testo</div>
-                    <div class="text phoneXs1-4 phoneS1-3 tabletMD1-5 desckL1-6">testo</div>
-                    <div class="text phoneXs1-4 phoneS1-3 tabletMD1-5 desckL1-6">testo</div>
-                    <div class="text phoneXs1-4 phoneS1-3 tabletMD1-5 desckL1-6">testo</div>
-                    <div class="text phoneXs1-4 phoneS1-3 tabletMD1-5 desckL1-6">testo</div>
-                    <div class="text phoneXs1-4 phoneS1-3 tabletMD1-5 desckL1-6">testo</div>
+                    <div class="text phoneXs1-4 phoneS1-3 tabletMD1-5 desckL1-6">IN EVIDENZA</div>
+                    <div class="text phoneXs1-4 phoneS1-3 tabletMD1-5 desckL1-6">PODCAST</div>
+                    <div class="text phoneXs1-4 phoneS1-3 tabletMD1-5 desckL1-6">CLASSIFICHE</div>
+                    <div class="text phoneXs1-4 phoneS1-3 tabletMD1-5 desckL1-6">GENERI E MOOD</div>
+                    <div class="text phoneXs1-4 phoneS1-3 tabletMD1-5 desckL1-6">NUOVE USCITE</div>
+                    <div class="text phoneXs1-4 phoneS1-3 tabletMD1-5 desckL1-6">SCOPRI</div>
 
                 </div>
 

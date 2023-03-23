@@ -19,11 +19,13 @@
 .RowReverse    {flex-direction: row-reverse;}
 
 .padding1   { padding: 1rem;}
-
-.w100   {width: 100%;}
-.phoneXs    {width: calc(100% / 2);}
-
 .radius50   {border-radius: 50%;}
+
+.w10    {width: 10%;}
+.w100   {width: 100%;}
+.phoneXs1-4 {width: calc(100% /4);}
+.phoneXs   {width: calc(100% / 2);}
+
 
 
 
@@ -41,23 +43,60 @@ button{
     background-color: bisque;
 }
 
-.sidebar{
-    background-color: black;
-    width: 10%;
-    /* height: calc(100vh - 80px);  */
-}
-
 .nav{
     position: fixed;
     width: 100%;
 }
 
-#spotyfyIcona{
-    filter: invert(1);
+/***************
+    SIDEBAR.
+****************/
+
+.sidebar{
+    background-color: black;
+    /* height: calc(100vh - 80px);  */
 }
 
-.boxIcone{
+.icona{
+    width: 100%;
+}
+
+#spotyfyIcona{
+    filter: invert(1);
+    width: 100%;
+}
+
+/* .boxIcone{
     width: 80%;
+} */
+
+.prova > h1{
+    display: none;
+    color: white;
+}
+
+.iconaTesto > h4{
+    display: none;
+    color: white;
+}
+
+/*** media phone s. ***/
+@media screen and (min-width: 480px){
+    .sidebar{
+        width: 30%;
+    }
+
+    .prova > h1{
+        display: block;
+    }
+
+    .iconaTesto > h4{
+        display: block;
+    }
+
+    .icona{
+        width: 25px;
+    }
 }
 
 /***************
@@ -79,7 +118,6 @@ button{
 
 .text{
     background-color: beige;
-    width: calc(100% /4);
     text-align: center;
 }
 
@@ -102,6 +140,8 @@ button{
     text-align: center;
     
 }
+
+
 
 
 

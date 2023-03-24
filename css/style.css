@@ -13,6 +13,8 @@ body{
     background-color: #141922;
 }
 
+.font10px   {font-size: 10px;}
+
 .positionR  {position: relative;}
 .positionAB    {position: absolute;}
 
@@ -27,7 +29,7 @@ body{
 .directionColumn    { flex-direction: column;}
 .RowReverse    {flex-direction: row-reverse;}
 
-
+.paddingSx05  {padding-left: 0.5rem;}
 .paddingDx  {padding-right: 4rem;}
 .paddingTopBott1    {padding-top: 1rem;}
 .paddingTopBott1 {padding: 1rem 0rem 1rem 0rem;}
@@ -250,4 +252,12 @@ footer{
     background-color: rgb(54, 53, 53);
     width: 100%;
     min-height: 80px;
+}
+
+.prova{
+    width: 30%;
+    
+}
+.imgFooter{
+    width: 30%;
 }

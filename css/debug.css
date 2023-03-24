@@ -1,6 +1,6 @@
 /****** MEDIA QUERY DEBUG *****/
 
-/*** PHONE S ***/
+/*** PHONE XS ***/
 @media screen and (max-width: 480px){
     .bodyDebug{
         background-color: red;
@@ -13,7 +13,7 @@
         background-color: orange;
     }
 }
-
+ 
 /*** TABLET ***/
 @media screen and (min-width: 768px){
     .bodyDebug{

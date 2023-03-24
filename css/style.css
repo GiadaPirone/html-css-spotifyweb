@@ -23,6 +23,7 @@ body{
 
 .justifuCenter  { justify-content: center;}
 .justifyBetween { justify-content: space-between;}
+.justifyAround  {justify-content: space-around;}
 .justifyFlexEnd { justify-content: flex-end;}
 
 .alignCenter    { align-items: center;}
@@ -78,7 +79,19 @@ body{
     .row{
         width: calc(100% - 180px);
     }
+}
 
+/*** TABLET ***/
+@media screen and (min-width: 768px){
+    .botton{
+        right: 75px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .botton{
+        right: 65px;
+    }
 }
 
 
@@ -275,17 +288,31 @@ footer{
     font-size: 13px;
 }
 
+.play{
+    font-size: 19px;
+    padding: 0em 1em 0em 1em;
+}
+
+.playerTop span:first-child{
+    padding: 0.5rem;
+}
+
+.playerTop span:last-child{
+    padding: 0.5rem;
+}
+
 .rotate i{
     rotate: 180deg ;
 }
 
 .playerBot p{
     font-size: 10px;
+    padding: 0rem 0.5rem 0rem 0.5rem;
 }
 
 .tempoBrano{
     background-color: rgba(255, 255, 255, 0.5);
-    width: 75px;
+    width: 85px;
     height: 4px;
 }
 
@@ -293,4 +320,36 @@ footer{
     background-color: white;
     width: 40%;
     height: 4px;
+}
+
+.iconeFDx span{
+    padding: 0.3rem;
+}
+
+.audio{
+    background-color: rgba(255, 255, 255, 0.521);
+    height: 4px;
+    width: 50px;
+}
+.audioattivo{
+    background-color: white;
+    width: 20%;
+    height: 4px;
+}
+
+/*** TABLET FOOTER ***/
+@media screen and (min-width: 768px){
+   .imgFooter{
+    width: 20%;
+   }
+
+   .playerTop span i{
+    font-size: 25px;
+   }
+
+   .tempoBrano{
+    width: 95px;
+   }
+
+  
 }
